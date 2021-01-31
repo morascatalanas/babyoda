@@ -1,0 +1,61 @@
+body{
+    background-color: #4d81c8;
+}
+#box{
+    position: relative;
+    height: 100vh;
+    width: fit-content ;
+    margin:auto;
+
+}
+
+@keyframes float {
+    0% { 
+        transform: translateY(10%);
+    }
+    50%{
+     transform: translateY(85%);
+  }
+     100% { 
+    transform: translateY(0%);
+}
+}
+
+@keyframes shadow{
+
+    0% { 
+        transform: scale(1);
+    }
+    25%{
+     transform: scale(0.7);
+  }
+     50% { 
+    transform: scale(0.2);
+    opacity: 0.1;
+}
+100%{
+    transform: scale(1);
+
+}
+
+}
+
+
+#cradle{
+height: 400px;    
+position: relative;
+animation: float 8s ease-in-out infinite;
+
+}
+
+#shadow{
+    width: 250px;
+    height: 50px;
+    background-color:rgba(0,0,0,0.2);
+    border-radius: 50%;
+    animation: shadow 8s ease-in-out infinite;
+    bottom: 2%;
+    margin: auto;
+    position: sticky;
+}
+
