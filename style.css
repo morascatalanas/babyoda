@@ -14,7 +14,7 @@ body{
         transform: translateY(10%);
     }
     50%{
-     transform: translateY(85%);
+     transform: translateY(65%);
   }
      100% { 
     transform: translateY(0%);
