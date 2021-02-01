@@ -61,7 +61,7 @@ animation: float 8s ease-in-out infinite;
 
 @media (max-width: 700px) {
     #cradle{
-        height: 200px;
+        height: 250px;
     }
     #shadow{
         height: 25px;
