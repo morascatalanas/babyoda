@@ -48,6 +48,10 @@ animation: float 8s ease-in-out infinite;
 
 }
 
+#cradle:hover{
+content: url("close.png");
+}
+
 #shadow{
     width: 250px;
     height: 50px;
@@ -59,9 +63,6 @@ animation: float 8s ease-in-out infinite;
     position: sticky;
 }
 
-#cradle:hover{
-content: url(close.png);
-}
 
 @media (max-width: 700px) {
     #cradle{
