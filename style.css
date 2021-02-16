@@ -59,6 +59,10 @@ animation: float 8s ease-in-out infinite;
     position: sticky;
 }
 
+#cradle:hover{
+content: url(close.png);
+}
+
 @media (max-width: 700px) {
     #cradle{
         height: 250px;
